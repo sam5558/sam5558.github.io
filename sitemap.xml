@@ -148,11 +148,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-05-14T14:46:10+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/philosophy/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
@@ -164,6 +159,11 @@
   
   <url>
     <loc>/tags/photos/</loc>
+    <lastmod>2019-05-14T14:46:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
