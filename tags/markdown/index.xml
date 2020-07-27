@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Beautiful Hugo</title>
+    <title>markdown on Random Logger</title>
     <link>/tags/markdown/</link>
-    <description>Recent content in markdown on Beautiful Hugo</description>
+    <description>Recent content in markdown on Random Logger</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Salim Mourabbi)</managingEditor>
     <webMaster>youremail@domain.com (Salim Mourabbi)</webMaster>

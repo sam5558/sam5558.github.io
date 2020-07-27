@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Beautiful Hugo</title>
+    <title>Pages on Random Logger</title>
     <link>/page/</link>
-    <description>Recent content in Pages on Beautiful Hugo</description>
+    <description>Recent content in Pages on Random Logger</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Salim Mourabbi)</managingEditor>
     <webMaster>youremail@domain.com (Salim Mourabbi)</webMaster>
@@ -17,9 +17,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Salim Mourabbi)</author>
       <guid>/page/about/</guid>
-      <description>My name is Inigo Montoya. I have the following qualities:
- I rock a great mustache I&amp;rsquo;m extremely loyal to my family  What else do you need?
-my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
+      <description>Salim is a weird creature, he thinks everyone is lazy like him. The thing is, no one told him the truth, so he&amp;rsquo;s condamned to live in the misundertanding of the society.
+I like:
+ Reading/Watching japanease shit Chilling in my bed Listening to pretty much all kinds of music, how exotic they can be.  What else do you need?
+My history To be honest, i&amp;rsquo;ve always been interested in the IT field.</description>
     </item>
     
   </channel>
