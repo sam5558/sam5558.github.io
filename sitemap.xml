@@ -3,115 +3,142 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.randomlogger.ml/tags/example/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/categories/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.randomlogger.ml/tags/photoswipe/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2017-03-20-photoswipe-gallery-sample/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/p/test-chinese/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.randomlogger.ml/post/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.randomlogger.ml/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.randomlogger.ml/tags/</loc>
-    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/categories/test/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.randomlogger.ml/post/2017-03-07-bigimg-sample/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.randomlogger.ml/tags/bigimg/</loc>
-    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/tags/math/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2017-03-05-math-sample/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/tags/code/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2016-03-08-code-sample/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-02-26-flake-it-till-you-make-it/</loc>
-    <lastmod>2015-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/tags/markdown/</loc>
-    <lastmod>2015-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-02-20-test-markdown/</loc>
-    <lastmod>2015-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-02-13-hamlet-monologue/</loc>
-    <lastmod>2015-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-01-27-dear-diary/</loc>
-    <lastmod>2015-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-01-19-soccer/</loc>
-    <lastmod>2015-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-01-15-pirates/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/post/2015-01-04-first-post/</loc>
-    <lastmod>2015-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/page/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.randomlogger.ml/categories/</loc>
+    <loc>https://www.randomlogger.ml/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.randomlogger.ml/page/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/p/markdown-syntax-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/p/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/p/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/tag-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/categories/test-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/p/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/p/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.randomlogger.ml/search/</loc>
   </url>
   
 </urlset>

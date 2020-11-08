@@ -5,64 +5,90 @@
     <link>https://www.randomlogger.ml/tags/</link>
     <description>Recent content in Tags on Random Logger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Salim Mourabbi)</managingEditor>
-    <webMaster>youremail@domain.com (Salim Mourabbi)</webMaster>
-    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.randomlogger.ml/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>example</title>
-      <link>https://www.randomlogger.ml/tags/example/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/tags/example/</guid>
+      <title>css</title>
+      <link>https://www.randomlogger.ml/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>photoswipe</title>
-      <link>https://www.randomlogger.ml/tags/photoswipe/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/tags/photoswipe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bigimg</title>
-      <link>https://www.randomlogger.ml/tags/bigimg/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/tags/bigimg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://www.randomlogger.ml/tags/math/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://www.randomlogger.ml/tags/code/</link>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/tags/code/</guid>
+      <title>html</title>
+      <link>https://www.randomlogger.ml/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
       <link>https://www.randomlogger.ml/tags/markdown/</link>
-      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
       <guid>https://www.randomlogger.ml/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://www.randomlogger.ml/tags/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://www.randomlogger.ml/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://www.randomlogger.ml/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag with whitespaces</title>
+      <link>https://www.randomlogger.ml/tags/tag-with-whitespaces/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/tag-with-whitespaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://www.randomlogger.ml/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>https://www.randomlogger.ml/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/tags/emoji/</guid>
       <description></description>
     </item>
     

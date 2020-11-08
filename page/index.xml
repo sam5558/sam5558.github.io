@@ -5,22 +5,39 @@
     <link>https://www.randomlogger.ml/page/</link>
     <description>Recent content in Pages on Random Logger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Salim Mourabbi)</managingEditor>
-    <webMaster>youremail@domain.com (Salim Mourabbi)</webMaster>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.randomlogger.ml/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About me</title>
-      <link>https://www.randomlogger.ml/page/about/</link>
+      <title>Archives</title>
+      <link>https://www.randomlogger.ml/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.randomlogger.ml/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.randomlogger.ml/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://www.randomlogger.ml/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Salim Mourabbi)</author>
-      <guid>https://www.randomlogger.ml/page/about/</guid>
-      <description>Salim is a weird creature, he thinks everyone is lazy like him. The thing is, no one told him the truth, so he&amp;rsquo;s condamned to live in the misundertanding of the society.
-I like:
- Reading/Watching japanease shit Chilling in my bed Listening to pretty much all kinds of music, how exotic they can be.  What else do you need?
-My history To be honest, i&amp;rsquo;ve always been interested in the IT field.</description>
+      
+      <guid>https://www.randomlogger.ml/search/</guid>
+      <description></description>
     </item>
     
   </channel>
