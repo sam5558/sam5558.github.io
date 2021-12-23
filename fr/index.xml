@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:content="https://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RandomLogger</title>
+    <link>https://randomlogger.ml/fr/</link>
+    <description>Recent content on RandomLogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://randomlogger.ml/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide For L2</title>
+      <link>https://randomlogger.ml/fr/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://randomlogger.ml/fr/posts/markdown-syntax/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>A propos</title>
+      <link>https://randomlogger.ml/fr/about/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://randomlogger.ml/fr/about/</guid>
+      <description>Apprenez tout sur moi !</description>
+    </item>
+    
+    
+    <item>
+      <title>SearchL2</title>
+      <link>https://randomlogger.ml/fr/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://randomlogger.ml/fr/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
