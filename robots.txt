@@ -58,4 +58,4 @@ Disallow: /
 User-agent: *
 Allow: *
 
-Sitemap: https://randomlogger.ml/sitemap.xml
+Sitemap: https://www.randomlogger.ml/sitemap.xml
