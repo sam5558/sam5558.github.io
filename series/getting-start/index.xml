@@ -1,8 +1,0 @@
-<rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Getting start with DoIt - Series - RandomLogger</title>
-        <link>https://www.randomlogger.ml/series/getting-start/</link>
-        <description>Getting start with DoIt - Series - RandomLogger</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
-            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://www.randomlogger.ml/series/getting-start/" rel="self" type="application/rss+xml" /></channel>
-</rss>
