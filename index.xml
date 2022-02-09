@@ -4,7 +4,7 @@
         <link>https://www.randomlogger.ml/</link>
         <description>The official documentation for the Hugo RandomLogger theme</description>
         <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
-            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Sep 2021 09:47:46 &#43;0100</lastBuildDate>
+            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 May 2021 16:21:41 &#43;0100</lastBuildDate>
             <atom:link href="https://www.randomlogger.ml/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Theme Documentation - Basics</title>
@@ -66,24 +66,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.webp" referrerpolicy="no-referrer">
             </div><p>Find out how to turn your DoIt site into a Progressive Web App.</p>]]></description>
-</item><item>
-    <title>TOC Tests</title>
-    <link>https://www.randomlogger.ml/toc-tests/</link>
-    <pubDate>Mon, 27 Sep 2021 09:47:46 &#43;0100</pubDate><author>
-                    <name>PCloud</name><uri>https://github.com/HEIGE-PCloud</uri><email>heige.pcloud@outlook.com</email></author><guid>https://www.randomlogger.ml/toc-tests/</guid>
-    <description><![CDATA[TOC Tests]]></description>
-</item><item>
-    <title>Series Taxonomy Tests</title>
-    <link>https://www.randomlogger.ml/series-taxonomy-tests/</link>
-    <pubDate>Sat, 03 Jul 2021 22:15:26 &#43;0800</pubDate><author>
-        <name>PCloud</name>
-    </author><guid>https://www.randomlogger.ml/series-taxonomy-tests/</guid>
-    <description><![CDATA[Series Taxonomy Tests]]></description>
-</item><item>
-    <title>Single Author Tests</title>
-    <link>https://www.randomlogger.ml/author-single-tests/</link>
-    <pubDate>Mon, 07 Jun 2021 20:40:23 &#43;0100</pubDate><author>
-                    <name>PCloud</name><uri>https://github.com/HEIGE-PCloud</uri><email>heige.pcloud@outlook.com</email></author><guid>https://www.randomlogger.ml/author-single-tests/</guid>
-    <description><![CDATA[Single Author Tests]]></description>
 </item></channel>
 </rss>

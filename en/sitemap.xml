@@ -101,37 +101,6 @@
                     hreflang="en"
                     href="https://www.randomlogger.ml/posts/"
                     /></url><url>
-            <loc>https://www.randomlogger.ml/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://www.randomlogger.ml/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://www.randomlogger.ml/"
-                    /></url><url>
-            <loc>https://www.randomlogger.ml/categories/tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://www.randomlogger.ml/zh-cn/categories/tests/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://www.randomlogger.ml/categories/tests/"
-                    /></url><url>
-            <loc>https://www.randomlogger.ml/toc-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/series-taxonomy-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://www.randomlogger.ml/zh-cn/series-taxonomy-tests/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://www.randomlogger.ml/series-taxonomy-tests/"
-                    /></url><url>
-            <loc>https://www.randomlogger.ml/author-single-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/author-fallback-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/showcase-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://www.randomlogger.ml/tags/pwa/</loc><lastmod>2022-02-09T19:55:39&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -140,6 +109,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://www.randomlogger.ml/tags/pwa/"
+                    /></url><url>
+            <loc>https://www.randomlogger.ml/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://www.randomlogger.ml/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://www.randomlogger.ml/"
                     /></url><url>
             <loc>https://www.randomlogger.ml/tags/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -150,16 +128,6 @@
                     hreflang="en"
                     href="https://www.randomlogger.ml/tags/"
                     /></url><url>
-            <loc>https://www.randomlogger.ml/friend-link-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/katex-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/music-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/mapbox-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/echarts-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/mermaid-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/bilibili-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/typeit-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/builtin-shortcodes-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.randomlogger.ml/markdown-tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://www.randomlogger.ml/authors/dillon/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"

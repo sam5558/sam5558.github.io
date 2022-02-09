@@ -4,7 +4,7 @@
         <link>https://www.randomlogger.ml/zh-cn/</link>
         <description>Hugo RandomLogger 主题官方文档</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
-            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 22:15:26 &#43;0800</lastBuildDate>
+            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 May 2021 16:21:41 &#43;0100</lastBuildDate>
             <atom:link href="https://www.randomlogger.ml/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>主题文档 - 基本概念</title>
@@ -66,12 +66,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.webp" referrerpolicy="no-referrer">
             </div><p>了解如何在 DoIt 主题中配置渐进式网络应用程序 (PWA).</p>]]></description>
-</item><item>
-    <title>系列分类测试</title>
-    <link>https://www.randomlogger.ml/zh-cn/series-taxonomy-tests/</link>
-    <pubDate>Sat, 03 Jul 2021 22:15:26 &#43;0800</pubDate><author>
-        <name>PCloud</name>
-    </author><guid>https://www.randomlogger.ml/zh-cn/series-taxonomy-tests/</guid>
-    <description><![CDATA[系列分类测试]]></description>
 </item></channel>
 </rss>
