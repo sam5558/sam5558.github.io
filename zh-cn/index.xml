@@ -1,8 +1,8 @@
 <rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>DoIt</title>
+        <title>RandomLogger</title>
         <link>https://randomlogger.ml/zh-cn/</link>
-        <description>Hugo DoIt 主题官方文档</description>
+        <description>Hugo RandomLogger 主题官方文档</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
             <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 22:15:26 &#43;0800</lastBuildDate>
             <atom:link href="https://randomlogger.ml/zh-cn/index.xml" rel="self" type="application/rss+xml" />

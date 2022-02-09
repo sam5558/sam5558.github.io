@@ -1,8 +1,8 @@
 <rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>DoIt</title>
+        <title>RandomLogger</title>
         <link>https://randomlogger.ml/</link>
-        <description>The official documentation for the Hugo DoIt theme</description>
+        <description>The official documentation for the Hugo RandomLogger theme</description>
         <generator>Hugo -- gohugo.io</generator><language>fr</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
             <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Sep 2021 09:47:46 &#43;0100</lastBuildDate>
             <atom:link href="https://randomlogger.ml/index.xml" rel="self" type="application/rss+xml" />

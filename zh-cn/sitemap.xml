@@ -83,15 +83,6 @@
                     hreflang="zh-cn"
                     href="https://randomlogger.ml/zh-cn/categories/"
                     /></url><url>
-            <loc>https://randomlogger.ml/zh-cn/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://randomlogger.ml/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://randomlogger.ml/zh-cn/"
-                    /></url><url>
             <loc>https://randomlogger.ml/zh-cn/posts/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -100,6 +91,15 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://randomlogger.ml/zh-cn/posts/"
+                    /></url><url>
+            <loc>https://randomlogger.ml/zh-cn/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://randomlogger.ml/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://randomlogger.ml/zh-cn/"
                     /></url><url>
             <loc>https://randomlogger.ml/zh-cn/categories/tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"

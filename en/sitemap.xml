@@ -83,15 +83,6 @@
                     hreflang="en"
                     href="https://randomlogger.ml/categories/"
                     /></url><url>
-            <loc>https://randomlogger.ml/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://randomlogger.ml/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://randomlogger.ml/"
-                    /></url><url>
             <loc>https://randomlogger.ml/authors/pcloud/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -109,6 +100,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://randomlogger.ml/posts/"
+                    /></url><url>
+            <loc>https://randomlogger.ml/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://randomlogger.ml/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://randomlogger.ml/"
                     /></url><url>
             <loc>https://randomlogger.ml/categories/tests/</loc><lastmod>2022-02-09T20:12:42&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
