@@ -1,386 +1,273 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en">
 
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>RandomLogger</title>
-<meta name="keywords" content="Blog, Portfolio, PaperMod" />
-<meta name="description" content="RL description">
-<meta name="author" content="Salim">
-<link rel="canonical" href="https://randomlogger.ml/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://randomlogger.ml/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://randomlogger.ml/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://randomlogger.ml/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://randomlogger.ml/apple-touch-icon.png">
-<link rel="mask-icon" href="https://randomlogger.ml/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.89.4" />
-<link rel="alternate" type="application/rss+xml" href="https://randomlogger.ml/index.xml">
-<link rel="alternate" hreflang="en" href="https://randomlogger.ml/" />
-<link rel="alternate" hreflang="fr" href="https://randomlogger.ml/fr/" />
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-123-45', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script><meta property="og:title" content="RandomLogger" />
-<meta property="og:description" content="RL description" />
+<head>
+	<meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title class="pjax-title">DoIt</title><meta name="Description" content="The official documentation for the Hugo DoIt theme"><meta property="og:title" content="DoIt" />
+<meta property="og:description" content="The official documentation for the Hugo DoIt theme" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://randomlogger.ml/" /><meta property="og:site_name" content="Randomlogger" />
+<meta property="og:url" content="https://randomlogger.ml/" /><meta property="og:image" content="https://randomlogger.ml/images/avatar.webp"/><meta property="og:site_name" content="Hugo DoIt Theme Documentation" />
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="RandomLogger"/>
-<meta name="twitter:description" content="RL description"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://randomlogger.ml/images/avatar.webp"/>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "RandomLogger",
-  "url": "https://randomlogger.ml/",
-  "description": "RL description",
-  "thumbnailUrl": "https://randomlogger.ml/favicon.ico",
-  "sameAs": [
-      "https://www.linkedin.com/in/smourabbi/", "mailto:mourabbi.salim@gmail.com", "https://github.com/sam5558"
-  ]
-}
-</script>
-</head>
+<meta name="twitter:title" content="DoIt"/>
+<meta name="twitter:description" content="The official documentation for the Hugo DoIt theme"/>
+<meta name="application-name" content="DoIt">
+<meta name="apple-mobile-web-app-title" content="DoIt">
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://randomlogger.ml/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="DoIt">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="DoIt"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="MQ8DNu27ayX6B_4ObiEDK09vGr1fdy7kOAnbd09hJk4" /><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/randomlogger.ml\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "PCloud"
+            },"description": "The official documentation for the Hugo DoIt theme","image": "https:\/\/randomlogger.ml\/images\/Apple-Devices-Preview.png","thumbnailUrl": "https:\/\/randomlogger.ml\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "DoIt"
     }
+    </script></head>
 
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://randomlogger.ml/" accesskey="h" title="Home (Alt + H)">Home</a>
-            <span class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="https://randomlogger.ml/fr/" title="French"
-                            aria-label=":fr:">Fr</a>
-                    </li>
-                </ul>
-            </span>
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme);}
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="DoIt"><span class="header-title-pre"><i class='far fa-edit fa-fw'></i></span><span id="desktop-header-typeit" class="typeit"></span></a>
         </div>
-        <ul id="menu">
-            <li>
-                <a href="https://randomlogger.ml/categories/" title="categories">
-                    <span>categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://randomlogger.ml/categories/monitoring/" title="monitoring">
-                    <span>monitoring</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://randomlogger.ml/categories/nas/" title="nas">
-                    <span>nas</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://randomlogger.ml/categories/linux/" title="linux">
-                    <span>linux</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://randomlogger.ml/about" title="about">
-                    <span>about</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://randomlogger.ml/search" title="search (Alt &#43; /)" accesskey=/>
-                    <span>search</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/series/"> Series </a><a class="menu-item" href="/authors/"> Authors </a><a class="menu-item" href="/showcase/"> Showcase </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/HEIGE-PCloud/DoIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" title="Select Language" id="language-select-desktop" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="#" onclick="return false;" class="menu-item theme-select" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="Switch Theme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="black">Black</option>
+                        <option value="auto">Auto</option>
+                    </select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="DoIt"><span class="header-title-pre"><i class='far fa-edit fa-fw'></i></span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/series/" title="">Series</a><a class="menu-item" href="/authors/" title="">Authors</a><a class="menu-item" href="/showcase/" title="">Showcase</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/HEIGE-PCloud/DoIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="#" onclick="return false;" class="menu-item theme-select" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="Switch Theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="black">Black</option>
+                    <option value="auto">Auto</option>
+                </select>
+            </a><a href="#" onclick="return false;" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" title="Select Language" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option></select>
+                </a></div>
+    </div>
 </header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Random Logger 👦</h1>
-    </header>
-    <section class="entry-content">
-        <p>yet another IT blog</p>
-    </section>
-    <footer class="entry-footer">
-        <div class="social-icons">
-    <a href="https://www.linkedin.com/in/smourabbi/" target="_blank" rel="noopener noreferrer me" title="Linkedin">
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-    <rect x="2" y="9" width="4" height="12"></rect>
-    <circle cx="4" cy="4" r="2"></circle>
-</svg>
-    </a>
-    <a href="mailto:mourabbi.salim@gmail.com" target="_blank" rel="noopener noreferrer me" title="Email">
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-    <polyline points="22,6 12,13 2,6"></polyline>
-</svg>
-    </a>
-    <a href="https://github.com/sam5558" target="_blank" rel="noopener noreferrer me" title="Github">
-        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-    </path>
-</svg>
-    </a>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
 </div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><div class="page home" posts><div class="home-profile"><div class="home-avatar"><a href="/posts/" title="Posts"><img
+        class="lazyload"
+        data-src="/images/avatar.webp"
+        data-srcset="/images/avatar.webp, /images/avatar.webp 1.5x, /images/avatar.webp 2x"
+        data-sizes="auto"
+        alt="/images/avatar.webp"
+        title="/images/avatar.webp" height="6rem" width="6rem"
+    /></a></div><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2><div class="links"><a href="https://github.com/xxxx" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="https://twitter.com/xxxx" title="Twitter" target="_blank" rel="noopener noreffer me"><i class="fab fa-twitter fa-fw"></i></a><a href="https://facebook.com/xxxx" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw"></i></a><a href="https://t.me/xxxx" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw"></i></a><a href="https://www.youtube.com/user/xxxx" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw"></i></a><a href="https://mastodon.technology/@xxxx" title="Mastodon" target="_blank" rel="noopener noreffer me"><i class="fab fa-mastodon fa-fw"></i></a><a href="https://liberapay.com/xxx" title="Liberapay" target="_blank" rel="noopener noreffer me"><i data-svg-src="/lib/simple-icons/icons/liberapay.min.svg"></i></a><a href="https://ko-fi.com/xxx" title="Ko-Fi" target="_blank" rel="noopener noreffer me"><i data-svg-src="/lib/simple-icons/icons/kofi.min.svg"></i></a><a href="mailto:xxxx@xxxx.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
+<article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/theme-documentation-basics/" aria-label=Theme&#32;Documentation&#32;-&#32;Basics><img
+        class="lazyload"
+        data-src="/theme-documentation-basics/featured-image.webp"
+        data-srcset="/theme-documentation-basics/featured-image.webp, /theme-documentation-basics/featured-image.webp 1.5x, /theme-documentation-basics/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/theme-documentation-basics/featured-image.webp"
+        title="Discover what the Hugo - DoIt theme is all about and the core-concepts behind it." height="840" width="1600"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-basics/">Theme Documentation - Basics</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a>, <a href='https://randomlogger.ml/authors/pcloud'>PCloud</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-03-03">2020-03-03</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/getting-start/"><i class="far fa-list-alt fa-fw"></i>Getting start with DoIt</a></span></div><div class="content"><p>Discover what the Hugo - <strong>DoIt</strong> theme is all about and the core-concepts behind it.</p></div><div class="post-footer">
+        <a href="/theme-documentation-basics/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/installation/">installation</a>,&nbsp;<a href="/tags/configuration/">configuration</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/theme-documentation-content/" aria-label=Theme&#32;Documentation&#32;-&#32;Content><img
+        class="lazyload"
+        data-src="/theme-documentation-content/featured-image.webp"
+        data-srcset="/theme-documentation-content/featured-image.webp, /theme-documentation-content/featured-image.webp 1.5x, /theme-documentation-content/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/theme-documentation-content/featured-image.webp"
+        title="Find out how to create and organize your content quickly and intuitively in DoIt theme." height="1269" width="2363"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-content/">Theme Documentation - Content</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a>, <a href='https://randomlogger.ml/authors/pcloud'>PCloud</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-03-04">2020-03-04</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/getting-start/"><i class="far fa-list-alt fa-fw"></i>Getting start with DoIt</a></span></div><div class="content"><p>Find out how to create and organize your content quickly and intuitively in <strong>DoIt</strong> theme.</p></div><div class="post-footer">
+        <a href="/theme-documentation-content/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/content/">content</a>,&nbsp;<a href="/tags/markdown/">Markdown</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/theme-documentation-built-in-shortcodes/" aria-label=Theme&#32;Documentation&#32;-&#32;Built-in&#32;Shortcodes><img
+        class="lazyload"
+        data-src="/theme-documentation-built-in-shortcodes/featured-image.webp"
+        data-srcset="/theme-documentation-built-in-shortcodes/featured-image.webp, /theme-documentation-built-in-shortcodes/featured-image.webp 1.5x, /theme-documentation-built-in-shortcodes/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/theme-documentation-built-in-shortcodes/featured-image.webp"
+        title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean." height="500" width="1000"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-built-in-shortcodes/">Theme Documentation - Built-in Shortcodes</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a>, <a href='https://randomlogger.ml/authors/pcloud'>PCloud</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-03-05">2020-03-05</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/getting-start/"><i class="far fa-list-alt fa-fw"></i>Getting start with DoIt</a></span></div><div class="content"><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p></div><div class="post-footer">
+        <a href="/theme-documentation-built-in-shortcodes/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes/">shortcodes</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/theme-documentation-extended-shortcodes/" aria-label=Theme&#32;Documentation&#32;-&#32;Extended&#32;Shortcodes><img
+        class="lazyload"
+        data-src="/theme-documentation-extended-shortcodes/featured-image-preview.webp"
+        data-srcset="/theme-documentation-extended-shortcodes/featured-image-preview.webp, /theme-documentation-extended-shortcodes/featured-image-preview.webp 1.5x, /theme-documentation-extended-shortcodes/featured-image-preview.webp 2x"
+        data-sizes="auto"
+        alt="/theme-documentation-extended-shortcodes/featured-image-preview.webp"
+        title="DoIt theme provides multiple shortcodes on top of built-in ones in Hugo." height="360" width="1200"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-extended-shortcodes/">Theme Documentation - Extended Shortcodes</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a>, <a href='https://randomlogger.ml/authors/pcloud'>PCloud</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-03-06">2020-03-06</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/getting-start/"><i class="far fa-list-alt fa-fw"></i>Getting start with DoIt</a></span></div><div class="content"><p><strong>DoIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p></div><div class="post-footer">
+        <a href="/theme-documentation-extended-shortcodes/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes/">shortcodes</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/basic-markdown-syntax/" aria-label=Basic&#32;Markdown&#32;Syntax><img
+        class="lazyload"
+        data-src="/basic-markdown-syntax/featured-image.webp"
+        data-srcset="/basic-markdown-syntax/featured-image.webp, /basic-markdown-syntax/featured-image.webp 1.5x, /basic-markdown-syntax/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/basic-markdown-syntax/featured-image.webp"
+        title="This article shows the basic Markdown syntax and format." height="708" width="1420"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/basic-markdown-syntax/">Basic Markdown Syntax</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2019-12-01">2019-12-01</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span></div><div class="content"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p></div><div class="post-footer">
+        <a href="/basic-markdown-syntax/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/markdown/">Markdown</a>,&nbsp;<a href="/tags/html/">HTML</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/emoji-support/" aria-label=Emoji&#32;Support><img
+        class="lazyload"
+        data-src="/emoji-support/featured-image.webp"
+        data-srcset="/emoji-support/featured-image.webp, /emoji-support/featured-image.webp 1.5x, /emoji-support/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/emoji-support/featured-image.webp"
+        title="Guide to emoji usage in Hugo and DoIt." height="708" width="1420"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/emoji-support/">Emoji Support</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/dillon'>Dillon</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2019-10-01">2019-10-01</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span></div><div class="content"><p>Emoji can be enabled in a Hugo project in a number of ways.</p></div><div class="post-footer">
+        <a href="/emoji-support/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/emoji/">emoji</a></div></div>
+</article><article class="single summary" itemscope itemtype="https://schema.org/Article"><div class="featured-image-preview">
+            <a href="/pwa-support/" aria-label=PWA&#32;Support><img
+        class="lazyload"
+        data-src="/pwa-support/featured-image.webp"
+        data-srcset="/pwa-support/featured-image.webp, /pwa-support/featured-image.webp 1.5x, /pwa-support/featured-image.webp 2x"
+        data-sizes="auto"
+        alt="/pwa-support/featured-image.webp"
+        title="Guide to setup PWA in DoIt" height="620" width="1280"
+    /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/pwa-support/">PWA Support</a>
+    </h1><div class="post-meta">
+        <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://randomlogger.ml/authors/pcloud'>PCloud</a></span>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2021-05-10">2021-05-10</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span></div><div class="content"><p>Find out how to turn your DoIt site into a Progressive Web App.</p></div><div class="post-footer">
+        <a href="/pwa-support/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/pwa/">PWA</a></div></div>
+</article></div></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.0">Hugo</a> | Theme - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreffer" title="DoIt 0.2.13"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/HEIGE-PCloud" target="_blank" rel="noopener noreferrer">PCloud</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div><script>
+                    if('serviceWorker' in navigator) {
+                        navigator.serviceWorker
+                            .register('/sw.min.js', { scope: '/' })
+                            .then(function(registration) {
+                                
+                            });
+                
+                        navigator.serviceWorker
+                            .ready
+                            .then(function(registration) {
+                                
+                            });
+                    }
+                </script></footer></div>
 
-    </footer>
-</article>
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/topbar/topbar.min.js"></script><script type="text/javascript" src="/lib/pjax/pjax.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></div>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Installation | Update
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Read Install and Update instructions here</p>
-  </section>
-  <footer class="entry-footer"><span title='2021-01-20 00:00:00 +0000 UTC'>January 20, 2021</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Aditya Telange</footer>
-  <a class="entry-link" aria-label="post link to Installation | Update" href="https://randomlogger.ml/posts/papermod/papermod-installation/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Features
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Learn About All Features in PaperMod</p>
-  </section>
-  <footer class="entry-footer"><span title='2021-01-20 00:00:00 +0000 UTC'>January 20, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Aditya Telange</footer>
-  <a class="entry-link" aria-label="post link to Features" href="https://randomlogger.ml/posts/papermod/papermod-features/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Markdown Syntax Guide For RTL
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-...</p>
-  </section>
-  <footer class="entry-footer"><span title='2019-03-11 00:00:00 +0000 UTC'>March 11, 2019</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo Authors</footer>
-  <a class="entry-link" aria-label="post link to Markdown Syntax Guide For RTL" href="https://randomlogger.ml/posts/markdown-syntax.fa/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Markdown Syntax Guide
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-...</p>
-  </section>
-  <footer class="entry-footer"><span title='2019-03-11 00:00:00 +0000 UTC'>March 11, 2019</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hugo Authors</footer>
-  <a class="entry-link" aria-label="post link to Markdown Syntax Guide" href="https://randomlogger.ml/posts/markdown-syntax/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Rich Content
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-...</p>
-  </section>
-  <footer class="entry-footer"><span title='2019-03-10 00:00:00 +0000 UTC'>March 10, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo Authors</footer>
-  <a class="entry-link" aria-label="post link to Rich Content" href="https://randomlogger.ml/posts/rich-content/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Placeholder Text
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Lorem est tota propiore conpellat pectoribus de pectora summo.
-...</p>
-  </section>
-  <a class="entry-link" aria-label="post link to Placeholder Text" href="https://randomlogger.ml/posts/placeholder-text/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Math Typesetting
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
-...</p>
-  </section>
-  <footer class="entry-footer"><span title='2019-03-08 00:00:00 +0000 UTC'>March 8, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo Authors</footer>
-  <a class="entry-link" aria-label="post link to Math Typesetting" href="https://randomlogger.ml/posts/math-typesetting/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Emoji Support
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Emoji can be enabled in a Hugo project in a number of ways.
-...</p>
-  </section>
-  <footer class="entry-footer"><span title='2019-03-05 00:00:00 +0000 UTC'>March 5, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo Authors</footer>
-  <a class="entry-link" aria-label="post link to Emoji Support" href="https://randomlogger.ml/posts/emoji-support/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-    <span>&copy; 2021 <a href="https://randomlogger.ml/">RandomLogger</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
+<div class="pjax-assets"><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"data":{"desktop-header-typeit":"DoIt","id-1":"A Clean, Elegant but Advanced Hugo Theme","mobile-header-typeit":"DoIt"},"search":{"algoliaAppID":"5YGRNRQK1G","algoliaIndex":"en_index","algoliaSearchKey":"0ff6874805de24b84aa1d5ebccad56cd","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":300,"type":"algolia"},"sharerjs":true,"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"id-1":["id-1"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script></div>
 </body>
 
 </html>

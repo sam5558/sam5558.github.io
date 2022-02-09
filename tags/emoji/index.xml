@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:content="https://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>emoji on RandomLogger</title>
-    <link>https://randomlogger.ml/tags/emoji/</link>
-    <description>Recent content in emoji on RandomLogger</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://randomlogger.ml/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Emoji Support</title>
-      <link>https://randomlogger.ml/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://randomlogger.ml/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>emoji - Tag - DoIt</title>
+        <link>https://randomlogger.ml/tags/emoji/</link>
+        <description>emoji - Tag - DoIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>heige.pcloud@outlook.com (PCloud)</managingEditor>
+            <webMaster>heige.pcloud@outlook.com (PCloud)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://randomlogger.ml/tags/emoji/" rel="self" type="application/rss+xml" /><item>
+    <title>Emoji Support</title>
+    <link>https://randomlogger.ml/emoji-support/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate><author>
+                    <name>Dillon</name><uri>https://dillonzq.com</uri></author><guid>https://randomlogger.ml/emoji-support/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.webp" referrerpolicy="no-referrer">
+            </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+</item></channel>
 </rss>
