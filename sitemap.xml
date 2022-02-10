@@ -5,20 +5,26 @@
     <loc>https://www.randomlogger.ml/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.randomlogger.ml/monitoring/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.randomlogger.ml/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.randomlogger.ml/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/about/</loc>
+    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.randomlogger.ml/post/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.randomlogger.ml/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <loc>https://www.randomlogger.ml/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.randomlogger.ml/contact/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/nas/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.randomlogger.ml/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -32,7 +38,16 @@
     <loc>https://www.randomlogger.ml/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.randomlogger.ml/linux/debuter-avec-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/linux/getting-started-with-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.randomlogger.ml/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.randomlogger.ml/tags/go/</loc>
@@ -44,7 +59,19 @@
     <loc>https://www.randomlogger.ml/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.randomlogger.ml/categories/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.randomlogger.ml/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/nas/introduction-aux-modeles-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/linux/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/nas/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.randomlogger.ml/tags/</loc>
@@ -55,5 +82,14 @@
   </url><url>
     <loc>https://www.randomlogger.ml/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/categories/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/monitoring/migrer-vers-hugo-depuis-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.randomlogger.ml/monitoring/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
