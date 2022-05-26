@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Salim Mourabbi | Introduction aux modèles (Hu)go</title>
   <meta property="og:title" content="Salim Mourabbi | Introduction aux modèles (Hu)go" />
-  <meta property="og:image" content="https://www.randomlogger.ml/img/TechChat.jpg" />
+  <meta property="og:image" content="https://www.randomlogs.ml/img/TechChat.jpg" />
   <meta name="description" content="">
   <meta property="og:description" content="" />
   <meta name="author" content="Salim Mourabbi">
@@ -23,13 +23,13 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="https://www.randomlogger.ml/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://www.randomlogger.ml/css/resume.css"></noscript>
-  <link rel="preload" href="https://www.randomlogger.ml/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://www.randomlogger.ml/css/tweaks.css"></noscript>
-  <link rel="preload" href="https://www.randomlogger.ml/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://www.randomlogger.ml/css/resume-override.css"></noscript>
-  <meta name="generator" content="Hugo 0.92.0" />
+  <link rel="preload" href="https://www.randomlogs.ml/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://www.randomlogs.ml/css/resume.css"></noscript>
+  <link rel="preload" href="https://www.randomlogs.ml/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://www.randomlogs.ml/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://www.randomlogs.ml/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://www.randomlogs.ml/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.98.0" />
   
    
   
@@ -100,17 +100,17 @@
 
 
 <li class="breadcrumb-item">
-  <a href="https://www.randomlogger.ml/">Home</a>
+  <a href="https://www.randomlogs.ml/">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="https://www.randomlogger.ml/blog/">Blogs</a>
+  <a href="https://www.randomlogs.ml/blog/">Blogs</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="https://www.randomlogger.ml/blog/nas/introduction-aux-modeles-hugo/">Introduction aux modèles (Hu)go</a>
+  <a href="https://www.randomlogs.ml/blog/nas/introduction-aux-modeles-hugo/">Introduction aux modèles (Hu)go</a>
 </li>
 
   </ol>
@@ -158,8 +158,8 @@ fonctions.</p>
 <pre><code>{{ .Params.bar }}
 </code></pre>
 <p><strong>Les parenthèses peuvent être utilisées pour grouper des éléments ensemble</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ if or (isset .Params &#34;alt&#34;) (isset .Params &#34;caption&#34;) }} Caption {{ end }}
-</code></pre></div><h2 id="variables">Variables</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{ if or (isset .Params &#34;alt&#34;) (isset .Params &#34;caption&#34;) }} Caption {{ end }}
+</span></span></code></pre></div><h2 id="variables">Variables</h2>
 <p>Chaque modèle go a une structure (objet) mis à sa disposition. Avec Hugo, à
 chaque modèle est passé soit une page, soit une structure de nœud, suivant quel
 type de page vous rendez. Plus de détails sont disponibles sur la page des
@@ -234,9 +234,9 @@ avec <code>end</code>.</p>
 {{ end }}
 </code></pre>
 <p><strong>Exemple 3: And &amp; Or</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ if and (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;))
-    (isset .Params &#34;attr&#34;)}}
-</code></pre></div><p><strong>Exemple 4: With</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{ if and (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;))
+</span></span><span style="display:flex;"><span>    (isset .Params &#34;attr&#34;)}}
+</span></span></code></pre></div><p><strong>Exemple 4: With</strong></p>
 <p>Une manière alternative d&rsquo;écrire un &ldquo;if&rdquo; et de référencer cette même valeur est
 d&rsquo;utiliser &ldquo;with&rdquo;. Cela permet de remplacer le contexte <code>.</code> par cet valeur et
 saute le bloc si la variable est absente.</p>
@@ -274,16 +274,16 @@ illustration de la façon d&rsquo;utiliser les tuyaux.</p>
 </code></pre>
 <p>Accès au paramètre de page nommé &ldquo;disqus_url&rdquo; et échappement du HTML</p>
 <p><strong>Exemple 3 :</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ if or (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;))
-    (isset .Params &#34;attr&#34;)}}
-Stuff Here
-{{ end }}
-</code></pre></div><p>Peut être réécrit en</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{  isset .Params &#34;caption&#34; | or isset .Params &#34;title&#34; |
-    or isset .Params &#34;attr&#34; | if }}
-Stuff Here
-{{ end }}
-</code></pre></div><h2 id="contexte-alias-le-point">Contexte (alias. le point)</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{ if or (or (isset .Params &#34;title&#34;) (isset .Params &#34;caption&#34;))
+</span></span><span style="display:flex;"><span>    (isset .Params &#34;attr&#34;)}}
+</span></span><span style="display:flex;"><span>Stuff Here
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>Peut être réécrit en</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{  isset .Params &#34;caption&#34; | or isset .Params &#34;title&#34; |
+</span></span><span style="display:flex;"><span>    or isset .Params &#34;attr&#34; | if }}
+</span></span><span style="display:flex;"><span>Stuff Here
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><h2 id="contexte-alias-le-point">Contexte (alias. le point)</h2>
 <p>Le concept le plus facilement négligé pour comprendre les modèles go est que
 {{ . }} fait toujours référence au contexte actuel. Dans le plus haut niveau de
 votre modèle, ce sera l&rsquo;ensemble des données mis à votre disposition. Dans une
@@ -292,12 +292,12 @@ contexte change. . ne fera plus référence aux données disponibles dans la pag
 entière. Si vous avez besoin y d&rsquo;accèder depuis l&rsquo;intérieur d&rsquo;une boucle, il est
 judicieux d&rsquo;y définir comme variable au lieu de dépendre du contexte.</p>
 <p><strong>Exemple:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ $title := .Site.Title }}
-{{ range .Params.tags }}
-&lt;li&gt; &lt;a href=&#34;{{ $baseurl }}/tags/{{ . | urlize }}&#34;&gt;
-    {{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
-{{ end }}
-</code></pre></div><p>Notez que, une fois que nous sommes entrés dans la boucle, la valeur de
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{ $title := .Site.Title }}
+</span></span><span style="display:flex;"><span>{{ range .Params.tags }}
+</span></span><span style="display:flex;"><span>&lt;li&gt; &lt;a href=&#34;{{ $baseurl }}/tags/{{ . | urlize }}&#34;&gt;
+</span></span><span style="display:flex;"><span>    {{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>Notez que, une fois que nous sommes entrés dans la boucle, la valeur de
 {{ . }} a changée. Nous avons défini une variable en dehors de la boucle, afin
 d&rsquo;y avoir accès dans la boucle.</p>
 <h1 id="les-paramètres-dhugo">Les Paramètres d&rsquo;Hugo</h1>
@@ -316,16 +316,16 @@ la table des matières n&rsquo;a pas beaucoup de sens. Nous avons défini une va
 dans notre section liminaire de quelques pages pour désactiver la table des
 matières.</p>
 <p>Ceci est un exemple de section liminaire :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">---
-title: &#34;Permalinks&#34;
-date: &#34;2013-11-18&#34;
-aliases:
-  - &#34;/doc/permalinks/&#34;
-groups: [&#34;extras&#34;]
-groups_weight: 30
-notoc: true
----
-</code></pre></div><p>Ceci est le code correspondant dans le modèle :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Permalinks&#34;
+</span></span><span style="display:flex;"><span>date: &#34;2013-11-18&#34;
+</span></span><span style="display:flex;"><span>aliases:
+</span></span><span style="display:flex;"><span>  - &#34;/doc/permalinks/&#34;
+</span></span><span style="display:flex;"><span>groups: [&#34;extras&#34;]
+</span></span><span style="display:flex;"><span>groups_weight: 30
+</span></span><span style="display:flex;"><span>notoc: true
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>Ceci est le code correspondant dans le modèle :</p>
 <pre><code>  {{ if not .Params.notoc }}
     &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
     {{ .TableOfContents }}
@@ -336,34 +336,34 @@ notoc: true
 <p>Dans votre configuration de plus haut niveau (ex <code>config.yaml</code>), vous pouvez
 définir des paramètres de site, dont les valeurs vous seront accessibles.</p>
 <p>Pour les instances, vous pourriez délarer :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">params</span>:
-  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
-</code></pre></div><p>Avec un pied de page, vous devriez déclarer un <code>&lt;footer&gt;</code> qui est affiché
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Avec un pied de page, vous devriez déclarer un <code>&lt;footer&gt;</code> qui est affiché
 seulement si le paramètre <code>CopyrightHTML</code> est déclaré, et si il l&rsquo;est, vous
 devriez le déclarer comme HTML-safe, afin d&rsquo;éviter d&rsquo;échapper les entités HTML.
 Cela vous permettra de le modifier facilement dans votre configuration au lieu
 de le chercher dans votre modèle.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
-&lt;/footer&gt;{{end}}
-</code></pre></div><p>Une alternative au &ldquo;if&rdquo; et d&rsquo;appeler la même valeur est d&rsquo;utiliser &ldquo;with&rdquo;. Cela
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+</span></span><span style="display:flex;"><span>&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+</span></span><span style="display:flex;"><span>&lt;/footer&gt;{{end}}
+</span></span></code></pre></div><p>Une alternative au &ldquo;if&rdquo; et d&rsquo;appeler la même valeur est d&rsquo;utiliser &ldquo;with&rdquo;. Cela
 modifiera le contexte et passera le bloc si la variable est absente :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
-&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
-&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
- alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
-&lt;/span&gt;{{end}}
-</code></pre></div><p>Enfin, si vous souhaitez extraire des &ldquo;constantes magiques&rdquo; de vos mises en
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+</span></span><span style="display:flex;"><span>&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+</span></span><span style="display:flex;"><span>&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+</span></span><span style="display:flex;"><span> alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
+</span></span><span style="display:flex;"><span>&lt;/span&gt;{{end}}
+</span></span></code></pre></div><p>Enfin, si vous souhaitez extraire des &ldquo;constantes magiques&rdquo; de vos mises en
 page, vous pouvez le faire comme dans l&rsquo;exemple suivant :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;nav class=&#34;recent&#34;&gt;
-  &lt;h1&gt;Recent Posts&lt;/h1&gt;
-  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
-  {{end}}&lt;/ul&gt;
-&lt;/nav&gt;
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;nav class=&#34;recent&#34;&gt;
+</span></span><span style="display:flex;"><span>  &lt;h1&gt;Recent Posts&lt;/h1&gt;
+</span></span><span style="display:flex;"><span>  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
+</span></span><span style="display:flex;"><span>    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+</span></span><span style="display:flex;"><span>  {{end}}&lt;/ul&gt;
+</span></span><span style="display:flex;"><span>&lt;/nav&gt;
+</span></span></code></pre></div>
 	    
 	</div>
     <div>
