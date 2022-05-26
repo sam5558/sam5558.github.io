@@ -1,7 +1,7 @@
 #
 #. This config file adds support for Netlify CMS, exposed at /admin on the running site.
 # In order to use this on your site,
-#. 1) replace instances of "randomlogger/......" with the appropriate paths, relative from repository root.
+#. 1) replace instances of "randomlogs/......" with the appropriate paths, relative from repository root.
 #. 2) replace repo path in `backend` settings, and set branch to master.
 #  3) Optionally enable the [editor workflow](https://www.netlifycms.org/docs/configuration-options/#publish-mode) which uses PRs for content changes
 #  4) Optionally enable [open authoring](https://www.netlifycms.org/docs/open-authoring/) for community sites, which requires #3
@@ -16,13 +16,13 @@ backend:
   branch: cms
 
 
-media_folder: "randomlogger/static/img" # Folder where user uploaded files should go
+media_folder: "randomlogs/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "Blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog" # Used in the UI, ie.: "New Post"
-    folder: "randomlogger/content/blog" # The path to the folder where the documents are stored
+    folder: "randomlogs/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
        
   - name: "Projects" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Projects" # Used in the UI, ie.: "New Post"
-    folder: "randomlogger/content/projects/creations" # The path to the folder where the documents are stored
+    folder: "randomlogs/content/projects/creations" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}     
@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
        
   - name: "Contributions" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Contributions" # Used in the UI, ie.: "New Post"
-    folder: "randomlogger/content/projects/contributions" # The path to the folder where the documents are stored
+    folder: "randomlogs/content/projects/contributions" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}     
@@ -66,7 +66,7 @@ collections: # A list of collections the CMS should be able to edit
        
   - name: "Publications" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Publications" # Used in the UI, ie.: "New Post"
-    folder: "randomlogger/content/publications" # The path to the folder where the documents are stored
+    folder: "randomlogs/content/publications" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}     
@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - name: 'general'
         label: 'Site Settings'
-        file: 'randomlogger/config.toml'
+        file: 'randomlogs/config.toml'
         extension: toml
         description: 'General Site Settings'
         fields:
